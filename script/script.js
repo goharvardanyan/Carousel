@@ -19,7 +19,7 @@ function update() {
     boxIndex = optionIndex;
     name = options[optionIndex].id;
     box.innerHTML = `<h3  class="box-${boxIndex}">${name}</h3>
-    <audio id="audio${boxIndex}" src="./audio/audio${boxIndex}.mp3"></audio>`   
+    <audio id="audio${boxIndex}" src="./audio/audio${boxIndex}.mp3"></audio>`     
 }
 
 function btnCheck() {
@@ -66,7 +66,7 @@ slider.addEventListener("transitionend", () => {
     }
 })
 
-document.querySelector(".box").addEventListener("click", play);
+document.querySelector(".content").addEventListener("click", play);
 document.querySelector(".content").addEventListener("click", pause);
 
 function play() {

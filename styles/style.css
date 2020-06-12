@@ -87,7 +87,6 @@
     border: none;
     outline: none;
     opacity: 0.4;
-    cursor: pointer;
     transition: 0.3s;
 }
  .box:hover {
